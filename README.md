@@ -151,8 +151,8 @@
   - Seguimiento en tiempo real
   - Precisión y timestamp
   - Altitud y velocidad
-
-- [Sensor APIs](https://developer.mozilla.org/es/docs/Web/API/Sensor_APIs): Conjunto de APIs para acceder a sensores del dispositivo:
+https://developer.mozilla.org/es/search?q=Sensor%20API
+- [Sensor APIs](https://developer.mozilla.org/es/search?q=Sensor+API): Conjunto de APIs para acceder a sensores del dispositivo:
   - Acelerómetro: Detecta movimiento y orientación
   - Giroscopio: Mide rotación y orientación
   - Magnetómetro: Brújula digital
