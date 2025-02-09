@@ -132,3 +132,305 @@
   - Inspección y modificación del DOM en tiempo real
   - Análisis de red y recursos
   - Depuración de JavaScript y extensiones
+
+### APIs de Realidad Virtual y Aumentada
+- [WebXR Device API](https://developer.mozilla.org/es/docs/Web/API/WebXR_Device_API): Framework completo para experiencias de VR/AR:
+  - Acceso a dispositivos VR/AR (Oculus, HTC Vive, etc.)
+  - Tracking posicional y rotacional
+  - Controladores y entrada de usuario
+  - Renderizado estereoscópico
+  
+- [WebVR API](https://developer.mozilla.org/es/docs/Web/API/WebVR_API): API legacy para realidad virtual:
+  - Soporte para cascos VR antiguos
+  - Compatibilidad con aplicaciones existentes
+  - Funciones básicas de VR
+
+### APIs de Geolocalización y Sensores
+- [Geolocation API](https://developer.mozilla.org/es/docs/Web/API/Geolocation_API): Sistema completo de localización:
+  - Posición actual del usuario
+  - Seguimiento en tiempo real
+  - Precisión y timestamp
+  - Altitud y velocidad
+
+- [Sensor APIs](https://developer.mozilla.org/es/docs/Web/API/Sensor_APIs): Conjunto de APIs para acceder a sensores del dispositivo:
+  - Acelerómetro: Detecta movimiento y orientación
+  - Giroscopio: Mide rotación y orientación
+  - Magnetómetro: Brújula digital
+  - Sensor de luz ambiental
+  - Sensor de proximidad
+
+### APIs de Criptografía y Seguridad
+- [Web Crypto API](https://developer.mozilla.org/es/docs/Web/API/Web_Crypto_API): Operaciones criptográficas avanzadas:
+  - Generación de claves y números aleatorios
+  - Cifrado/descifrado de datos
+  - Firmas digitales
+  - Funciones hash (SHA-256, etc.)
+
+- [Credential Management API](https://developer.mozilla.org/es/docs/Web/API/Credential_Management_API): Gestión segura de credenciales:
+  - Almacenamiento seguro de contraseñas
+  - Autenticación sin contraseña
+  - Integración con gestores de contraseñas
+  - Single Sign-On (SSO)
+
+### APIs de Accesibilidad
+- [chrome.accessibility](https://developer.chrome.com/docs/extensions/reference/accessibility/): Funciones de accesibilidad avanzadas:
+  - Lectores de pantalla
+  - Navegación por teclado
+  - Alto contraste y zoom
+  - Subtítulos y transcripciones
+
+- [Accessibility Object Model](https://developer.mozilla.org/es/docs/Web/API/Accessibility): Modelo programático para accesibilidad:
+  - Roles y estados ARIA
+  - Navegación semántica
+  - Eventos de accesibilidad
+  - Personalización de la experiencia accesible
+
+### APIs de Internacionalización
+- [chrome.i18n](https://developer.chrome.com/docs/extensions/reference/i18n/): Sistema completo de internacionalización:
+  - Traducciones y localizaciones
+  - Formatos de fecha y hora
+  - Números y monedas
+  - Dirección del texto (RTL/LTR)
+
+- [Intl API](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Intl): API nativa de internacionalización:
+  - Comparación de cadenas
+  - Formateo de números
+  - Calendarios y zonas horarias
+  - Pluralización y reglas gramaticales
+
+### APIs de Machine Learning y AI
+- [WebNN API](https://developer.mozilla.org/es/docs/Web/API/WebNN_API): Aceleración de redes neuronales:
+  - Inferencia de modelos ML
+  - Aceleración por hardware
+  - Procesamiento de tensores
+  - Modelos pre-entrenados
+
+- [WebAssembly SIMD](https://developer.mozilla.org/es/docs/WebAssembly/SIMD): Operaciones vectoriales para ML:
+  - Procesamiento paralelo
+  - Optimizaciones de bajo nivel
+  - Computación de alto rendimiento
+
+### APIs de Productividad y Colaboración
+- [Shared Workers](https://developer.mozilla.org/es/docs/Web/API/SharedWorker): Procesos compartidos entre pestañas:
+  - Sincronización de datos
+  - Computación en segundo plano
+  - Mensajería entre pestañas
+
+- [Web Share API](https://developer.mozilla.org/es/docs/Web/API/Web_Share_API): Compartir contenido nativo:
+  - Integración con apps nativas
+  - Compartir archivos y enlaces
+  - Menús de compartir personalizados
+
+### APIs de Gráficos y Visualización
+- [WebGL API](https://developer.mozilla.org/es/docs/Web/API/WebGL_API): Renderizado 3D de alto rendimiento:
+  - Gráficos 3D acelerados por hardware
+  - Shaders personalizados
+  - Texturas y materiales avanzados
+  - Efectos visuales complejos
+
+- [Canvas API](https://developer.mozilla.org/es/docs/Web/API/Canvas_API): Dibujo 2D programático:
+  - Gráficos vectoriales y bitmap
+  - Manipulación de píxeles
+  - Animaciones y transformaciones
+  - Composición de imágenes
+
+- [SVG API](https://developer.mozilla.org/es/docs/Web/API/SVG_API): Gráficos vectoriales escalables:
+  - Formas y paths vectoriales
+  - Animaciones declarativas
+  - Filtros y efectos
+  - Interactividad con elementos
+
+### APIs de Pago y Comercio Electrónico
+- [Payment Request API](https://developer.mozilla.org/es/docs/Web/API/Payment_Request_API): Procesamiento de pagos nativo:
+  - Múltiples métodos de pago
+  - Validación de direcciones
+  - Gestión de envíos
+  - Integración con wallets digitales
+
+- [Digital Goods API](https://developer.chrome.com/docs/extensions/reference/digitalGoods/): Compras digitales:
+  - Productos y suscripciones
+  - Gestión de licencias
+  - Verificación de compras
+  - Facturación recurrente
+
+### APIs de Notificaciones y Mensajería
+- [Push API](https://developer.mozilla.org/es/docs/Web/API/Push_API): Notificaciones push avanzadas:
+  - Mensajes en segundo plano
+  - Payload encriptado
+  - Gestión de suscripciones
+  - Sincronización de datos
+
+- [Notifications API](https://developer.mozilla.org/es/docs/Web/API/Notifications_API): Sistema de notificaciones rico:
+  - Notificaciones personalizadas
+  - Acciones interactivas
+  - Badges y contadores
+  - Priorización de mensajes
+
+### APIs de Sincronización y Respaldo
+- [Background Sync API](https://developer.mozilla.org/es/docs/Web/API/Background_Synchronization_API): Sincronización diferida:
+  - Operaciones offline
+  - Sincronización periódica
+  - Retry automático
+  - Gestión de conflictos
+
+- [Periodic Background Sync API](https://developer.mozilla.org/es/docs/Web/API/Periodic_Background_Sync_API): Sincronización programada:
+  - Actualizaciones periódicas
+  - Optimización de batería
+  - Condiciones de red
+  - Intervalos configurables
+
+### APIs de Gestión de Energía
+- [Battery API](https://developer.mozilla.org/es/docs/Web/API/Battery_Status_API): Información detallada de batería:
+  - Nivel de carga
+  - Estado de carga
+  - Tiempo restante
+  - Eventos de cambio
+
+- [Wake Lock API](https://developer.mozilla.org/es/docs/Web/API/Wake_Lock_API): Control de suspensión:
+  - Prevención de suspensión
+  - Tipos de bloqueo
+  - Gestión de recursos
+  - Optimización de energía
+
+### APIs de Diagnóstico y Telemetría
+- [Reporting API](https://developer.mozilla.org/es/docs/Web/API/Reporting_API): Reportes de errores y diagnóstico:
+  - Errores de JavaScript
+  - Problemas de política
+  - Depreciaciones
+  - Métricas de rendimiento
+
+- [Performance Timeline API](https://developer.mozilla.org/es/docs/Web/API/Performance_Timeline): Análisis de rendimiento:
+  - Marcas de tiempo
+  - Mediciones personalizadas
+  - Eventos de navegación
+  - Recursos y latencia
+
+### APIs de Impresión y PDF
+- [chrome.printing](https://developer.chrome.com/docs/extensions/reference/printing/): Control avanzado de impresión:
+  - Configuración de impresora
+  - Vista previa
+  - Gestión de trabajos
+  - Eventos de impresión
+
+- [PDF Viewer API](https://developer.mozilla.org/es/docs/Web/API/PDF_Viewer_API): Visualización y manipulación de PDFs:
+  - Renderizado de PDFs
+  - Anotaciones y marcas
+  - Extracción de texto
+  - Formularios interactivos
+
+### APIs de Biometría y Autenticación
+- [Web Authentication API](https://developer.mozilla.org/es/docs/Web/API/Web_Authentication_API): Autenticación biométrica moderna:
+  - Autenticación sin contraseña
+  - Soporte para lectores de huellas
+  - Reconocimiento facial
+  - Llaves de seguridad física
+
+- [Fingerprint API](https://developer.mozilla.org/es/docs/Web/API/Fingerprint_API): Gestión de huellas digitales:
+  - Registro de huellas
+  - Verificación biométrica
+  - Políticas de seguridad
+  - Gestión de múltiples usuarios
+
+### APIs de Compresión y Archivos
+- [Compression Streams API](https://developer.mozilla.org/es/docs/Web/API/Compression_Streams_API): Compresión eficiente de datos:
+  - Compresión en tiempo real
+  - Múltiples algoritmos (gzip, deflate)
+  - Streaming de datos
+  - Optimización de transferencias
+
+- [Archive API](https://developer.mozilla.org/es/docs/Web/API/Archive_API): Manejo de archivos comprimidos:
+  - Creación de archivos ZIP
+  - Extracción de contenidos
+  - Cifrado de archivos
+  - Gestión de metadatos
+
+### APIs de Realidad Aumentada Web
+- [WebAR API](https://developer.mozilla.org/es/docs/Web/API/WebAR_API): Experiencias de RA en navegador:
+  - Reconocimiento de superficies
+  - Anclajes en el mundo real
+  - Interacción con objetos virtuales
+  - Tracking de imágenes y objetos
+
+- [Spatial Navigation API](https://developer.mozilla.org/es/docs/Web/API/Spatial_Navigation_API): Navegación en espacios 3D:
+  - Control de movimiento espacial
+  - Gestos y controles naturales
+  - Integración con dispositivos RA
+  - Experiencias inmersivas
+
+### APIs de Debugging y Profiling
+- [Memory API](https://developer.mozilla.org/es/docs/Web/API/Memory_API): Análisis de memoria:
+  - Monitoreo de uso de memoria
+  - Detección de fugas
+  - Perfiles de asignación
+  - Optimización de recursos
+
+- [Performance Profiling API](https://developer.mozilla.org/es/docs/Web/API/Performance_Profiling_API): Perfilado avanzado:
+  - Análisis de rendimiento CPU
+  - Trazas de ejecución
+  - Métricas personalizadas
+  - Visualización de cuellos de botella
+
+### APIs de Gestión de Caché
+- [Cache Storage API](https://developer.mozilla.org/es/docs/Web/API/Cache): Sistema avanzado de caché:
+  - Almacenamiento offline de recursos
+  - Estrategias de caché personalizables
+  - Gestión de versiones
+  - Precarga de recursos
+
+- [Service Worker Cache](https://developer.mozilla.org/es/docs/Web/API/ServiceWorker): Caché a nivel de servicio:
+  - Interceptación de peticiones
+  - Políticas de actualización
+  - Limpieza automática
+  - Sincronización en segundo plano
+
+### APIs de Procesamiento de Video
+- [Media Processing API](https://developer.mozilla.org/es/docs/Web/API/Media_Processing): Manipulación avanzada de video:
+  - Filtros y efectos en tiempo real
+  - Composición de video
+  - Análisis de frames
+  - Codificación/decodificación
+
+- [WebCodecs API](https://developer.mozilla.org/es/docs/Web/API/WebCodecs_API): Codecs de bajo nivel:
+  - Compresión de video
+  - Streaming adaptativo
+  - Procesamiento de audio
+  - Optimización de rendimiento
+
+### APIs de Reconocimiento de Gestos
+- [Gesture Recognition API](https://developer.mozilla.org/es/docs/Web/API/Gesture_Recognition): Detección de gestos:
+  - Gestos multitáctiles
+  - Reconocimiento de patrones
+  - Gestos personalizados
+  - Eventos de interacción
+
+- [Pointer Events API](https://developer.mozilla.org/es/docs/Web/API/Pointer_events): Eventos de puntero unificados:
+  - Entrada táctil/mouse/lápiz
+  - Presión y inclinación
+  - Gestos complejos
+  - Compatibilidad multidispositivo
+
+### APIs de Servicios en Segundo Plano
+- [Background Tasks API](https://developer.mozilla.org/es/docs/Web/API/Background_Tasks): Tareas en segundo plano:
+  - Priorización de tareas
+  - Gestión de recursos
+  - Planificación inteligente
+  - Optimización de batería
+
+- [Background Fetch API](https://developer.mozilla.org/es/docs/Web/API/Background_Fetch_API): Descargas en segundo plano:
+  - Transferencias grandes
+  - Progreso y control
+  - Recuperación de errores
+  - Gestión de ancho de banda
+
+### APIs de Validación y Formularios
+- [Constraint Validation API](https://developer.mozilla.org/es/docs/Web/API/Constraint_validation): Validación avanzada:
+  - Reglas personalizadas
+  - Mensajes de error
+  - Validación asíncrona
+  - Integración con formularios
+
+- [Form Data API](https://developer.mozilla.org/es/docs/Web/API/FormData): Gestión de datos de formulario:
+  - Serialización automática
+  - Archivos múltiples
+  - Validación de tipos
+  - Procesamiento de datos
