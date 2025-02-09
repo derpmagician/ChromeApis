@@ -12,11 +12,6 @@
   - Comunicación entre background scripts, content scripts y popups
   - Manejo de mensajes externos y conexiones nativas
   - Control de permisos y manifestación de la extensión
-- [chrome.messaging](https://developer.chrome.com/docs/extensions/reference/messaging/): Sistema robusto de comunicación entre componentes. Soporta:
-  - Mensajes síncronos y asíncronos
-  - Comunicación entre extensiones diferentes
-  - Canales de comunicación persistentes
-  - Mensajería con aplicaciones nativas
 - [chrome.webRequest](https://developer.chrome.com/docs/extensions/reference/webRequest/): Control granular sobre solicitudes de red. Permite:
   - Interceptar y modificar solicitudes y respuestas HTTP/HTTPS
   - Bloquear o redirigir solicitudes
@@ -151,8 +146,8 @@
   - Seguimiento en tiempo real
   - Precisión y timestamp
   - Altitud y velocidad
-https://developer.mozilla.org/es/search?q=Sensor%20API
-- [Sensor APIs](https://developer.mozilla.org/es/search?q=Sensor+API): Conjunto de APIs para acceder a sensores del dispositivo:
+
+- [Sensor APIs](https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs): Conjunto de APIs para acceder a sensores del dispositivo:
   - Acelerómetro: Detecta movimiento y orientación
   - Giroscopio: Mide rotación y orientación
   - Magnetómetro: Brújula digital
